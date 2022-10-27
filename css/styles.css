@@ -4,14 +4,19 @@ body {
   background-color: var(--background-color);
 }
 
+.container {
+  width: 1200px;
+}
+
 :root {
   --brand-color: #212121;
   --gray-color: #757575;
   --blue-color: #2196f3;
-  --gray-btn-colot: #f5f4fa;
+  --gray-btn-color: #f5f4fa;
   --background-color: #ffffff;
   --background-footer: #2f303a;
   --border-color: #eeeeee;
+  --border-btm: #ececec;
 }
 
 .link {
@@ -25,6 +30,7 @@ body {
 /*-- Шапка сторінки -*/
 .header {
   background: var(--background-color);
+  border-bottom: 1px solid var(--border-btm);
 }
 
 /*-- Лого --*/
@@ -153,7 +159,7 @@ body {
 /*-- Наша команда --*/
 .section-our-team {
   width: 1600px;
-  background: var(--gray-btn-colot);
+  background: var(--gray-btn-color);
 }
 
 .section-our-team-titel {
@@ -237,7 +243,6 @@ body {
 
 /*-- Портфоліо --*/
 .portfolio {
-  background: var(--background-color);
 }
 
 .section-portfolio {
@@ -253,7 +258,7 @@ body {
   font-size: 16px;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
-  background: var(--gray-btn-colot);
+  background: var(--gray-btn-color);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -271,7 +276,6 @@ body {
 
   width: 370px;
   height: 404px;
-  background: var(--background-color);
   border-bottom: 1px solid var(--border-color);
 }
 
